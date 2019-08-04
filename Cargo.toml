@@ -1,0 +1,12 @@
+[package]
+name = "ststracker-base"
+version = "0.1.0"
+authors = ["Robert Usher <266585+dcchut@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+libsts = "0.1.0"
+
+[workspace]
+members = ["ststracker-client", "ststracker-server"]
